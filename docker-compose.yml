@@ -2,9 +2,9 @@ version: '3.9'
 services:
   web:
     image: andyrod209/profolio
-    build: 
-      context: ./
-      dockerfile: Dockerfile
+    # build: 
+    #   context: ./
+    #   dockerfile: Dockerfile
     restart: always
     ports:
       - "8080:80"
