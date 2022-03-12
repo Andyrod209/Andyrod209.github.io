@@ -22,7 +22,7 @@ jobs:
         run: docker build . --file Dockerfile --tag andyrod209/portfolio:latest
 
       - name: Add "date-stamp" tag to the image
-        run: docker image tag andyrod209/my-awesome-app-aer:latest andyrod209/portfolio:${{env.date-stamp}}
+        run: docker image tag andyrod209/portfolio:latest andyrod209/portfolio:${{env.date-stamp}}
 
       - name: Docker Login
         uses: docker/login-action@v1
