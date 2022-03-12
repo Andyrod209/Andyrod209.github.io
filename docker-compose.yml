@@ -9,3 +9,4 @@ services:
       - index.html
     ports:
       - "8080:80"
+    command: ["nginx", "-g", "daemon off;"]
