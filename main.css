@@ -74,16 +74,18 @@ p.written {
 }
 
 .container{
-    
     width: 70%; 
     height: 50%;   
 }
+
 section.about{
     margin-top: 0pt;
 }
+
 section.home{
     margin-bottom: 30em;
 }
+
 p.hOME{
     margin-inline-start: 30em;
     font-size: larger

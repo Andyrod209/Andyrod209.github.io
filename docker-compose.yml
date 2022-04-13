@@ -3,5 +3,7 @@ services:
   web:
     image: andyrod209/portfolio:latest
     ports:
+    # I was using 8080:80 for ports and I got 502 error but with
+    # 80:80 it worked.
       - "80:80"
     command: ["nginx", "-g", "daemon off;"] 
