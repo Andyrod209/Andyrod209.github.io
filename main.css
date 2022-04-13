@@ -80,6 +80,7 @@ p.written {
 
 section.about{
     margin-top: 0pt;
+    margin-bottom: 16%;
 }
 
 section.home{
@@ -87,6 +88,6 @@ section.home{
 }
 
 p.hOME{
-    margin-inline-start: 30em;
+    margin-inline-start: 20em;
     font-size: larger
 }
