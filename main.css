@@ -1,8 +1,8 @@
-html{
+ /* html{
     box-sizing: border-box;
-}
+} */
 
-body{
+/* body{
     font-family:"Times";
     background-color: burlywood;
     margin: 0;
@@ -90,4 +90,4 @@ section.home{
 p.hOME{
     margin-inline-start: 20em;
     font-size: larger
-}
+} */
