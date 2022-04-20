@@ -1,93 +1,31 @@
- /* html{
-    box-sizing: border-box;
-} */
-
-/* body{
-    font-family:"Times";
-    background-color: burlywood;
-    margin: 0;
-
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
-header{
-    background-color: #8d87de;
-    position: relative;
-    padding: 1rem;
-}
-
-nav a{
-    color: black;
-    font-size: 30px;
-    text-decoration: aliceblue
-}
-
-nav ul {
-    list-style-type: none;
-    position: absolute;
-    top: 0.7rem;
-    right: 1rem;
-}
-
-nav li {
-    display: inline;
-    margin-right:0.9rem
-}
+body {
+    overflow: auto;
+  }
 
 main{
-    margin:1rem auto;
-    width:80%;
+    box-sizing: border-box;
 }
 
-main section{
-    margin-top:6rem;
-    padding:1rem;
-}
-
-.home img{
-    float: left;
-    margin-left: 3rem;
-    width:300px
-}
-.projects img{
-    float: inline-start;
-    margin-left: 0rem;
-    width:5px;
-}
-p.Apara {
-    /* block-size: 50%; */
-    margin-block-start: -25%;
-    margin-inline-start: 25%;
-}
-p.written {
-    margin-inline-start: 175px;
-    margin-block-start: -55px;
-}   
-/* adding shadows to my projects card */
-.card{ 
-    transition:0.2s;
+.navbar{
+    background-color: crimson;
+    width: 100%;
+    padding: 1.8%;
     
 }
-
-.card:hover{
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    background: salmon;
+.name{
+    position: relative;
 }
 
-.container{
-    width: 70%; 
-    height: 50%;   
+.info{
+    float:right;
+    margin-right: 3%;
+    font-size: 100%;
 }
-
-section.about{
-    margin-top: 0pt;
-    margin-bottom: 16%;
-}
-
-section.home{
-    margin-bottom: 30em;
-}
-
-p.hOME{
-    margin-inline-start: 20em;
-    font-size: larger
-} */
