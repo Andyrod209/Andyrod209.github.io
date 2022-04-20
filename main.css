@@ -26,6 +26,8 @@ main{
 
 .info{
     float:right;
+    display: flex;
+    flex-direction:row-reverse;
     margin-right: 3%;
     font-size: 100%;
 }
