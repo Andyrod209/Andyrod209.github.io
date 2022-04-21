@@ -6,20 +6,15 @@
   box-sizing: inherit;
 }
 
-body {
-    overflow: auto;
-    background-color:rgba(0, 0, 0, 0.288) ;
-    text-align: center;
-  }
-
 main{
     box-sizing: border-box;
 }
 
 .navbar{
-    background-color: crimson;
+    background-color: rgba(0, 0, 0, 0.24);
     width: auto;
     padding: 2%;
+    margin: none;
     height: 1.8em;
     
 }
@@ -34,10 +29,21 @@ main{
 /* NOTE TO SELF. find a computer logo and put it on the center of your page */
 .info{
     float:right;
-    margin-right: 3%;
+    margin-right: 2.2%;
     font-size: 100%;
     text-decoration: none;
     opacity: 0.85;
     text-align: center;
     font-size: 24px;
+}
+
+body {
+    overflow: auto;
+    background-color:rgba(0, 0, 0, 0.671) ;
+    text-align: center;
+    
+  }
+
+.home{
+    display:inline;
 }
