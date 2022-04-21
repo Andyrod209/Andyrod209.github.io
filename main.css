@@ -47,7 +47,16 @@ body {
 .home{
     display:inline;
 }
-
-.contact{
-    background-color: aliceblue;
+#projects{
+    display: grid;
+    column-gap: 50px;
+}
+#contact{
+    position: fixed;
+    right: 25%;
+    bottom: 0;
+    width: 100%;
+    
+    color: white;
+    text-align: center;
 }
