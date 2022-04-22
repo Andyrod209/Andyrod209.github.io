@@ -35,6 +35,7 @@ main{
     opacity: 0.85;
     text-align: center;
     font-size: 24px;
+    color:cadetblue
 }
 
 body {
@@ -46,7 +47,13 @@ body {
 
 .home{
     display:inline;
+    align-content: center;
 }
+
+#home img{
+    width: 35%;
+}
+
 #projects{
     display: grid;
     column-gap: 50px;
@@ -55,8 +62,8 @@ body {
     position: fixed;
     right: 25%;
     bottom: 0;
+    padding-bottom: 2%;
     width: 100%;
-    
     color: white;
     text-align: center;
 }
