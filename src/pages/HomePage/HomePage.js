@@ -1,20 +1,17 @@
 import React, { useState } from "react";
-import './HomePage.css'
-
-
+import './HomePage.css';
 const HomePage = () => {
 
-    const homeImage = process.env.PUBLIC_URL+"images/pic-of-andrew-rodriguez.jpg"
 
     return ( 
         <div className="home">
-            <img className="home-image" src={homeImage} 
+            <p>Hello!</p><h1>Hello! I'm a <u>Full Stack Developer!</u></h1>
+            <img className="image-of-andrew" src={process.env.PUBLIC_URL+"images/pic-of-andrew-rodriguez.jpg"} 
                 alt ="Picture of Andrew Rodriguez"
-                style={{border:"", width: "30%"}}/>
-            <p class="home-text"> Hello! I'm a <u><b>Full Stack Developer!</b></u> 
-            <br/>My name is Andrew Rodriguez and I am a software developer!</p>
-        </div> 
-    );
+                style={{width: "40%"}}/>
+                
+            <p class="home-text">My name is Andrew Rodriguez and I am a software developer!</p>
+        </div> );
 }
-//  figure out how to style image
+ 
 export default HomePage
