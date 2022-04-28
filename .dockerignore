@@ -1,7 +1,0 @@
-Dockerfile
-docker-compose.yml
-Dockerfile.dev
-.git
-.gitignore
-.dockerignore
-.env
