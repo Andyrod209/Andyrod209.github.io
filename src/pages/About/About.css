@@ -1,20 +1,20 @@
 .about{
-    align-content: center;
-    vertical-align: text-top;
-    padding: 10%;
-    display:flex;
-    justify-items: baseline;
+    padding: 15%;
+    display: flex;
+    margin-top: 20%;
 }
 
 .image-of-andrew{
     border: solid 4px rgb(0, 0, 0);
     float:left;
-    width: 15%;
+    width: 30%;
+    height: auto;
     border-radius: 300px;
 }
 
 .about p{
+    border-bottom: solid 4px black;
     text-align: center;
-    margin: 10px 0px 20px 10px;
-    padding: 10px 25px 20px 20px
+    padding: 0 15px 0 10px;
+    font-weight: bold;
 }

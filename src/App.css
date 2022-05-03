@@ -6,3 +6,10 @@ body{
   background-color: sienna;
 }
 
+.main{
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
