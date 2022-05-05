@@ -1,6 +1,6 @@
-import './Contact.css'
+import './Footer.css'
 
-const Contact = () => {
+const Footer = () => {
     return ( 
         <div>
             <h1>Contact Me</h1>
@@ -12,7 +12,7 @@ const Contact = () => {
                     at all times 
                     */}
                     <li><b>phone:</b>(209) 693-1596</li>
-                    <li><b>Linked In:</b></li>
+                    <li><b>Linked In</b></li>
                     <li><b></b></li>
                     <li><b></b></li>
                 </ul>
@@ -21,4 +21,4 @@ const Contact = () => {
      );
 }
  
-export default Contact;
+export default Footer;
