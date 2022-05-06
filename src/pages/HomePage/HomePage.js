@@ -9,7 +9,7 @@ const HomePage = () => {
                 
             <p class="home-text">My name is Andrew Rodriguez and I am a software developer!</p>
 
-            <button>Resume</button>
+            <button><a href={process.env.PUBLIC_URL + "extraFiles/Rodriguez_Resume.pdf"} target="_blank">Resume</a></button>
             <button>Projects</button>
         </div> );
 }
