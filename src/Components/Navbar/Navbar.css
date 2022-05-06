@@ -8,11 +8,13 @@
   position: fixed;
   width: 100%;
   }
+  
   /* Fix nav bar 
   I want to have name on the left side
   and links right side. 
   may have to remove flex do some research find best solution for navbar. */
-.navbar li a {
+
+  .navbar li a {
   color: white;
   text-align: center;
   padding: 14px 16px;

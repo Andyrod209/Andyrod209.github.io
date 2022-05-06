@@ -6,6 +6,9 @@ const HomePage = () => {
     return ( 
         <div className="home">
           <h1>Hello! I'm a <u>Full Stack Developer!</u></h1>   
+            <span>
+              <img src={process.env.PUBLIC_URL+ "images/coding-picture.jpg"}/>
+            </span>
             <p class="home-text">My name is Andrew Rodriguez and I am a software developer!</p>
             <form action={process.env.PUBLIC_URL + "extraFiles/Rodriguez_Resume.pdf"} target='_blank'>
               <button type="submit">Resume</button>
