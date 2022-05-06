@@ -12,4 +12,5 @@ span img{
     width: 150px;
     height: 50px;
     border-radius: 40px;
+    cursor: pointer;
 }
