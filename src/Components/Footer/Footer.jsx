@@ -10,8 +10,8 @@ const Footer = () => {
                 at all times 
                 */}
                 <li><a href='https://www.linkedin.com/in/andrew-e-rodriguez/' target="_blank"><b>Linked In</b></a></li>
-                <li><a href=''><b>GitHub</b></a></li>
-                <li><a href=''><b>Email:</b> rodr.andye@gmail.com</a></li>
+                <li><a href='https://github.com/Andyrod209' target="_blank"><b>GitHub</b></a></li>
+                <li><b>Email:</b> rodr.andye@gmail.com</li>
                 <li><b>phone:</b> (209) 693-1596</li>
         </ul>
         </div>

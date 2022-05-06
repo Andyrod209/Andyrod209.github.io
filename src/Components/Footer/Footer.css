@@ -8,8 +8,8 @@
     position: fixed; /*sticking to a spot*/
     bottom: 0; /*moves content bottom of page*/
     margin-bottom: 0; /*Removing margin from bottom*/
-    padding: 0px 40px 0px 40px;
-    width:100%;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
     height: 40px;
     color: white;
     background-color: black;
