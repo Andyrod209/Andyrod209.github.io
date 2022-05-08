@@ -1,5 +1,6 @@
 .navbar ul{
   display: flex;
+  justify-content: right;
   list-style-type: none;
   margin: 0;
   padding: 15px;

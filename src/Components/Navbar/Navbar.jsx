@@ -1,13 +1,13 @@
 import './Navbar.css'
 const Navbar = () => {
     return ( 
-        <div className="navbar">
+        <nav className="navbar">
             <ul>
-                <li ><a href='/'>AR</a></li>
+                <li ><a href='/'>Andrew Rodriguez</a></li>
                 <li ><a href="/about">About</a></li>
                 <li ><a href='/projects'>Projects</a></li>
             </ul>
-        </div> );
+        </nav> );
 }
  
 export default Navbar;
