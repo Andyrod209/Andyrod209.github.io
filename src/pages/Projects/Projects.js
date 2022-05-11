@@ -1,7 +1,10 @@
 import './projects.css'
 const Projects = () => {
     return ( 
-        <><h1 className='projects-title'>projects page</h1>
+        <>
+        <div>
+            <h1 className='projects-title'>Projects Page</h1>
+        </div>
         <div className="projects">
             <div class="card">
                 <a href='https://github.com/Andyrod209/Spacey-Capstone' target="_blank"></a>
