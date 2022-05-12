@@ -1,15 +1,24 @@
 .home{
-    margin-top: 10%;
+    margin: 10% 20px 0 20px;
 }
 
-span img{
+.laptop-img{
     width: 250px;
+    margin:0 0 0 40px;
     border-radius: 20px;
+    float: left;
+    box-shadow: 1px 5px 15px 10px rgba(0, 0, 255, .2);
 }
 
-@media only screen and (max-width: 600px) { 
+@media only screen and (max-width: 800px) { 
     .home{
         margin-top: 20%;
+    }
+
+    .laptop-img{
+        width: 205px;
+        border-radius: 20px;
+        float: none;
     }
  }
 
