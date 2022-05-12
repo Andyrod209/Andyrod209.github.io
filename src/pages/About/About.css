@@ -1,7 +1,7 @@
 .about{
-    padding: 15%;
+    padding: 10%;
     display: flex;
-    margin-top: 20%;
+    margin-top: 2%;
 }
 
 .image-of-andrew{
@@ -13,8 +13,26 @@
 }
 
 .about p{
-    border-bottom: solid 4px black;
     text-align: center;
-    padding: 0 15px 0 10px;
+    padding: 0 50px 0 50px;
     font-weight: bold;
+}
+
+.about span{
+    border-bottom: solid 1px rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 700px){
+    .about{
+        margin-top: 20%;
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-of-andrew{
+        border: solid 4px rgb(0, 0, 0);
+        align-self: center;
+        width: 40%;
+    }
 }
