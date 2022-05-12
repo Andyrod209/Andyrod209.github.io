@@ -24,7 +24,10 @@
 
 .home button{
     width: 150px;
+    color: white;
+    font-weight: 500;
     height: 50px;
     border-radius: 40px;
     cursor: pointer;
+    background-color: rgba(137, 43, 226, 0.406)
 }
