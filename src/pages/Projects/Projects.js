@@ -1,10 +1,9 @@
 import './projects.css'
 const Projects = () => {
     return ( 
-        <>
-        <div>
+        
+        <div className='div-pro'>
             <h1 className='projects-title'>Projects Page</h1>
-        </div>
         <div className="projects">
             <div class="card">
                 <a href='https://github.com/Andyrod209/Spacey-Capstone' target="_blank"></a>
@@ -52,7 +51,8 @@ const Projects = () => {
                         from the big bang theory. Created to better understand inheritance. </p>
                 </div>
             </div>
-        </div></>
+        </div>
+        </div>
      );
 }
  
