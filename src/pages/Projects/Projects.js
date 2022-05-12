@@ -4,6 +4,7 @@ const Projects = () => {
         
         <div className='div-pro'>
             <h1 className='projects-title'>Projects Page</h1>
+            <small>CLick on any card to checkout project.</small>
         <div className="projects">
             <div class="card">
                 <a href='https://github.com/Andyrod209/Spacey-Capstone' target="_blank"></a>
