@@ -43,9 +43,17 @@ const Projects = () => {
                 </div>
             </div>
             <div class="card">
-                {/* using a tag to make it a clickable link */}
                 <a href='https://github.com/Andyrod209/RPSLS' target="_blank"></a>
                 <img src={process.env.PUBLIC_URL + "images/RPSLS.png"} />
+                <div class="container">
+                    <h4>RPSLS</h4>
+                    <p>Rock Paper Scissors Lizard Spock, is a game where you play against Sheldon 
+                        from the big bang theory. Created to better understand inheritance. </p>
+                </div>
+            </div>
+            <div class="card">
+                <a href='https://github.com/Andyrod209/Music_Library' target="_blank"></a>
+                <img src={process.env.PUBLIC_URL + "images/music-library.png"} />
                 <div class="container">
                     <h4>RPSLS</h4>
                     <p>Rock Paper Scissors Lizard Spock, is a game where you play against Sheldon 
