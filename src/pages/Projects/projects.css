@@ -46,6 +46,10 @@
   background-color: rgb(122, 59, 59);
 }
 
+small{
+  font-size: 15px;
+}
+
 .card a {
   position: absolute;
   top: 0;
