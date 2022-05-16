@@ -55,9 +55,9 @@ const Projects = () => {
                 <a href='https://github.com/Andyrod209/Music_Library' target="_blank"></a>
                 <img src={process.env.PUBLIC_URL + "images/music-library.png"} />
                 <div class="container">
-                    <h4>RPSLS</h4>
-                    <p>Rock Paper Scissors Lizard Spock, is a game where you play against Sheldon 
-                        from the big bang theory. Created to better understand inheritance. </p>
+                    <h4>Music-Library</h4>
+                    <p>A Place to store your favorite songs that you love. You are able to add, 
+                        edit, search, or delete songs. A simple way to easily access application essentials. </p>
                 </div>
             </div>
         </div>
