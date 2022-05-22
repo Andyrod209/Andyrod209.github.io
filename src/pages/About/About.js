@@ -10,8 +10,9 @@ const About = () => {
             <span>
                 <h4>About Me</h4>
                 <p>Hello I am Andrew Rodriguez a Full Stack Software Developer. I went through a fast paced 
-                    14-week full stack course, now completed ( You can find my certification of completion 
-                    <a href={process.env.PUBLIC_URL + "extraFiles/AndrewRodriguezCertificate.pdf"} target="_blank"> here</a> ). 
+                    14-week full stack course ( You can find my certification of completion 
+                    <a href={process.env.PUBLIC_URL + "extraFiles/AndrewRodriguezCertificate.pdf"} target="_blank"> here</a> ).
+                    I am an aspiring developer looking for work. I am motivated to expand my knowledge in this field. 
                 </p>
             </span>
         </div> );
