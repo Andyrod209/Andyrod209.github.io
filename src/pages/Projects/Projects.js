@@ -3,7 +3,7 @@ const Projects = () => {
     return ( 
         
         <div className='div-pro'>
-            <h1 className='projects-title'>Projects Page</h1>
+            <h1 className='projects-title'>Projects</h1>
             <small>CLick on any card to checkout project.</small>
         <div className="projects">
             <div class="card">

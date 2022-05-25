@@ -42,8 +42,8 @@
   display: block;
   align-self: center;
   position: relative;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   top: 20%;
-  background-color: rgb(122, 59, 59);
 }
 
 small{
