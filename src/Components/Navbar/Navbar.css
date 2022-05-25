@@ -2,7 +2,7 @@
   list-style-type: none;
   top: -20px;
   padding: 15px 0px 15px 0;
-  background-color: rgba(51, 51, 51, 0.825);
+  background-color: rgba(34, 33, 33, 0.71);
   position: fixed;
   width: 100%;
   /* z-index moves navbar infront of any content that goes under it. */
@@ -10,7 +10,7 @@
   }
 
 .navbar a{
-  color: white;
+  color: rgb(138,168,93);
   text-align: center;
   padding: 14px 16px;
   margin: auto;
